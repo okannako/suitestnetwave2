@@ -38,15 +38,15 @@ sudo systemctl restart suid
   2-) Aşağıdaki 2 kodu girerek Node un Sui ağının güncel bloğundan ne kadar uzakta olduğunu görebilirsiniz. 1. kod Sui ağı 2. kod sizin node nuzun blok sayısı.
      
 ```    
-    curl --location --request POST https://fullnode.testnet.sui.io:443 \
-    --header 'Content-Type: application/json' \
-    --data-raw '{ "jsonrpc":"2.0", "method":"sui_getTotalTransactionNumber","id":1}' 
+curl --location --request POST https://fullnode.testnet.sui.io:443 \
+--header 'Content-Type: application/json' \
+--data-raw '{ "jsonrpc":"2.0", "method":"sui_getTotalTransactionNumber","id":1}' 
 ```    
    
 ```
-    curl --location --request POST http://127.0.0.1:9000/ \
-    --header 'Content-Type: application/json' \
-    --data-raw '{ "jsonrpc":"2.0", "method":"sui_getTotalTransactionNumber","id":1}'
+curl --location --request POST http://127.0.0.1:9000/ \
+--header 'Content-Type: application/json' \
+--data-raw '{ "jsonrpc":"2.0", "method":"sui_getTotalTransactionNumber","id":1}'
 ```    
   
   3-) Aşağıdaki yöntem ise en önemli kontrol yöntemi. Kodu çalıştırdığınızda Sui ağı ve sizin node nuzun TPS sayılarını karşılaştırarak bir sornuç çıkıyor. Node sisteme eşitlendikten sonra node nuzun TPS değeri Sui Tps e eşit ya da çok yakın olmalıdır. Eğer arada büyük farklılıklar varsa herhangi bir nedenden dolayı node nuzda problem vardır. Son olarak ne olursa olsun TPS değeriniz 0'dan büyük olmalı.
