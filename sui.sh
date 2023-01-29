@@ -50,6 +50,8 @@ sed -i.bak "s|db-path:.*|db-path: \"$HOME\/.sui\/db\"| ; s|genesis-file-location
 cargo build --release --bin sui-node
 mv ~/sui/target/release/sui-node /usr/local/bin/
 sui-node -V
+ufw allow 9000
+ufw allow 9184
 echo "[Unit]
 Description=Sui Node
 After=network.target
