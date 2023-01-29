@@ -60,4 +60,10 @@ wget -O $HOME/check_testnet_tps.sh https://raw.githubusercontent.com/bartosian/s
 $HOME/check_testnet_tps.sh
 ```
 
+- Sui Node Silmek
+```
+rm -rf sui
+rm -rf .sui
+```
+
 NOT: Mail alanlar işlemleri yaptıktan sonra maildeki form ile bilgilerini yollamayı unutmasınlar. 
