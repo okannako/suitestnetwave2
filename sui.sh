@@ -9,8 +9,8 @@ echo " ####  ######    ############    #### ####   ####  ####     ####     #### 
 echo " ####   #####   ####      ####   ####  ####   ########      ####     ############  ####   ####   ####  ####";
 echo " ####    ####  ####        ####  ####   ####    ####        ####     ############  ####    ####  ####   ####";
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++";
-echo -e '\e[36mTwitter:\e[39m' https://twitter.com/NakoTurk
-echo -e '\e[36mGithub :\e[39m' https://github.com/okannako
+echo -e '\e[36mTwitter :\e[39m' https://twitter.com/NakoTurk
+echo -e '\e[36mGithub  :\e[39m' https://github.com/okannako
 echo -e '\e[36mYoutube :\e[39m' https://www.youtube.com/@CryptoChainNakoTurk
 echo -e "\e[0m"
 sleep 5
