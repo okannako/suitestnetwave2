@@ -29,6 +29,7 @@ pkg-config \
 openssl \
 protobuf-compiler \
 cmake
+sudo apt install git
 sudo curl https://sh.rustup.rs -sSf | sh -s -- -y
 source $HOME/.cargo/env
 rustc --version
