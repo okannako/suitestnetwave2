@@ -52,7 +52,7 @@ curl --location --request POST http://127.0.0.1:9000/ \
   3-) Aşağıdaki yöntem ise en önemli kontrol yöntemi. Kodu çalıştırdığınızda Sui ağı ve sizin node nuzun TPS sayılarını karşılaştırarak bir sornuç çıkıyor. Node sisteme eşitlendikten sonra node nuzun TPS değeri Sui Tps e eşit ya da çok yakın olmalıdır. Eğer arada büyük farklılıklar varsa herhangi bir nedenden dolayı node nuzda problem vardır. Son olarak ne olursa olsun TPS değeriniz 0'dan büyük olmalı.
 
 ```
-wget -O $HOME/check_testnet_tps.sh https://raw.githubusercontent.com/bartosian/sui_helpers/main/check_testnet_tps.sh && chmod +x $HOME/check_testnet_tps.sh && $HOME/check_testnet_tps.sh
+wget -O $HOME/check_testnet_tps.sh https://raw.githubusercontent.com/bartosian/sui_helpers/main/tps_checker/check_testnet_tps.sh && chmod +x $HOME/check_testnet_tps.sh && $HOME/check_testnet_tps.sh
 ```
 
 - Tekrar kontrol etmek için.
